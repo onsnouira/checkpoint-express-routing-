@@ -1,0 +1,35 @@
+html 
+        head 
+            title contact
+            link(rel='stylesheet', href='/stylesheet/form.css')
+            script(src="https://kit.fontawesome.com/92a610a1e9.js", crossorigin="anonymous")
+        body
+            include ./layout.pug
+            .flex-container
+            img(src="image.png", alt="imagemac" width='650',style='margin-top: 50px' ,height='600')
+            .card
+                p.heading  CONTACT US
+                    .input-div
+                        input.input(type='text', placeholder=' ENTER YOUR NAME ')
+                    .input-div
+                        input.input(type='text', placeholder='ENTER A VALID E-MAIL ADRESS')
+                    .input-div
+                        input.input(type='text', placeholder='ENTER YOUR MOBILE PHONE')
+                    .input-div
+                        input.input(type='text', placeholder='ENTER YOUR MESSAGE')             
+                    .button-div
+                button.submit SUBMIT 
+                hr.separator
+                i.fa-brands.fa-facebook-f 
+                i.fa-brands.fa-twitter
+                i.fa-brands.fa-instagram
+                i.fa-solid.fa-mobile-screen
+                i.fa-solid.fa-location-dot
+                i.fa-regular.fa-envelope-open
+
+
+
+
+
+
+
